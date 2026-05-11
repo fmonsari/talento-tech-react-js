@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #121212;
-  color: #eaeaea;
+  background-color: #fafafa;
+  color: #333333;
   font-family: system-ui, sans-serif;
 }
 
@@ -29,11 +29,11 @@ h1 {
 }
 
 .primary {
-  color: #eaeaea;
+  color: #e24d4d;
 }
 
 .secondary {
-  color: #b3b3b3;
+  color: #21277c;
 }
 
 .disabled {
@@ -41,14 +41,14 @@ h1 {
 }
 
 .btn {
-  background-color: #3b82f6;
+  background-color: #102d5c;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #2563eb;
+  background-color: #091c3a;
 }
 
 .btn:disabled {
