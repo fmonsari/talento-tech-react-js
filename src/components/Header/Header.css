@@ -10,3 +10,9 @@ header {
     align-items: center;
     font-size: 2rem;
 }
+
+.logo-container img {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
