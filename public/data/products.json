@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Botines F50 Elite Fg",
+    "description": "F50 Elite Fg es un nuevo producto para Unisex de adidas. Te invitamos a ver las imágenes para apreciar más detalles desde diferentes ángulos.",
+    "price": 499999,
+    "image": "/img/botines-1.avif"
+  },
+  {
+    "id": 2,
+    "name": "Botines F50 Sparkfusion League",
+    "description": "Los botines F50 SPARKFUSION LEAGUE de caña media para terreno firme/pasto sintético están diseñados para quienes se atreven a redefinir sus partidos.",
+    "price": 159999,
+    "image": "/img/botines-2.avif"
+  },
+  {
+    "id": 3,
+    "name": "Botines Copa Pure IV Club Negros",
+    "description": "Los Botines COPA PURE IV CLUB para Terreno Firme/Multiterreno están diseñados para quienes aprecian la combinación de tradición e innovación.",
+    "price": 109999,
+    "image": "/img/botines-3.avif"
+  },
+  {
+    "id": 4,
+    "name": "Botines F50 Messi Club",
+    "description": "La innovación se une al legado de un ícono del fútbol con los botines de fútbol F50 Messi Club.",
+    "price": 109999,
+    "image": "/img/botines-4.avif"
+  },
+  {
+    "id": 5,
+    "name": "Botines Predator Elite",
+    "description": "Creados para dominar el campo de juego, los botines Predator Elite para terreno firme combinan precisión y comodidad para un control sin límites.",
+    "price":  499999,
+    "image": "/img/botines-5.avif"
+  },
+  {
+    "id": 6,
+    "name": "Botines Copa Pure IV Club Plateados",
+    "description": "Diseñados pensando en el jugador moderno, estos botines ofrecen un toque de clase y una sensación cercana a la pelota, ayudándote a moverte con precisión y confianza.",
+    "price": 109999,
+    "image": "/img/botines-6.avif"
+  }
+]
