@@ -10,6 +10,14 @@ header {
     align-items: center;
 }
 
+.logo-container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo-container img {
     width: 120px;
     height: auto;
