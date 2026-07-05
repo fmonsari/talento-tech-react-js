@@ -12,7 +12,7 @@ import { ProductFormContainer } from './components/adminComponent/ProductFormCon
 import { PublicLayout } from "./layouts/PublicLayout";
 import { AdminLayout } from "./layouts/AdminLayout";
 import { ProtectedRoute } from "./components/ProtectedRoute/ProtectedRoute";
-import { Dashboard } from "./components/adminComponents/Dashboard/Dashboard";
+import { Dashboard } from "./components/adminComponent/Dashboard/Dashboard";
 import { Login } from "./components/Login/Login";
 
 function App() {
