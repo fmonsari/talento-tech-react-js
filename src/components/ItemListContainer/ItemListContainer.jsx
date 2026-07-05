@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-import { getProducts } from "../../services/productsService";
+import { getByCategory, getProducts } from "../../services/productsService";
 
 export const ItemListContainer = () => {
     const { category } = useParams();
@@ -21,7 +21,7 @@ export const ItemListContainer = () => {
             .finally(() => {
                 setLoading(false);
     });
-  }, []);
+  }, [category]);
 
   if (loading) return <p>Cargando...</p>;
   if (error) return <p>Error al cargar los productos</p>;

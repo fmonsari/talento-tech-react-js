@@ -48,6 +48,33 @@ export const getProductById = async(id) => {
     }    
 };
 
+/* -------------------------------------------------------------------------- */
+/*                          SI FILTRAMOS POR CATEGORY                         */
+/* -------------------------------------------------------------------------- */
+export const getByCategory = async (category) => {
+  try {
+    let queryRef;
+
+    //truthy
+    if (category) {
+      queryRef = query(productsRef, where("category", "==", category));
+    } else {
+      queryRef = productsRef;
+    }
+
+    // Traer los documentos:
+    const snapshot = await getDocs(queryRef);
+    //Mapeo de datos para formateo
+    const productsFormat = snapshot.docs.map((doc) => {
+      return { id: doc.id, ...doc.data() };
+    });
+    return productsFormat;
+  } catch (error) {
+    console.error("Error al filtrar productos:", error);
+    return [];
+  }
+};
+
 /* CREAR PRODUCTO */
 
 export const createProduct = async(productData) => {

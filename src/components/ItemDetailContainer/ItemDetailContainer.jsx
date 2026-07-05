@@ -10,7 +10,7 @@ const [itemDetail, setItemDetail] = useState(null);
 const [loading, setLoading] = useState(true);
 
     useEffect(() => { 
-      getProductById()
+      getProductById(id)
             .then((data) => setItemDetail(data))
             .catch((err) => {
               console.log("Hubo un error:", err)
