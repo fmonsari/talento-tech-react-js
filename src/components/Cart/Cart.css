@@ -53,6 +53,7 @@
 
 .cart-actions button, 
 .cart-actions .btn {
+    margin-top: 1.5rem;
     width: 100%;
     padding: 0.85rem 2rem;
     background-color: #0b2f61;
@@ -69,10 +70,10 @@
 
     .cart-actions button:hover,
 .cart-actions .btn:hover {
-    background-color: #072349; /* Un azul un toque más oscuro */
+    background-color: #072349;
 }
 
 .cart-actions button:active,
 .cart-actions .btn:active {
-    transform: scale(0.98); /* Pequeño efecto de hundimiento al hacer clic */
+    transform: scale(0.98);
 }
