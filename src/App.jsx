@@ -18,9 +18,7 @@ import { Login } from "./components/Login/Login";
 function App() {
   return (
     <>
-     <Header />
-    <main>
-      <Routes>
+       <Routes>
         {/* ----------------------RUTAS PUBLICAS -------------------------*/}
         <Route element={<PublicLayout />}>
           <Route path="/" element={<ItemListContainer />} />
@@ -50,8 +48,7 @@ function App() {
           <Route path="products/success/:id" element={<ProductSuccess />} />
         </Route>
       </Routes>
-    </main>
-    <Footer />
+  
     </>
   );
 }
